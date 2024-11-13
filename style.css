@@ -1,0 +1,221 @@
+body
+{
+    margin: 0px;
+    background-color: #000000;
+    color: white;
+}
+ul { 
+    list-style-type: none;
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 30px;
+}
+nav
+{ background-color: black;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+img
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 600px;
+}
+.logo
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin:0px;
+}
+#container1
+{
+    justify-content: space-around;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+
+}
+.section1
+{
+    height:703px;
+    width: 513px;
+    /* margin: 10px; */
+
+}
+.section1  img
+{
+    height: 703px;
+    width: 513px;
+}
+.section1 h1
+{   
+    font-family:"Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 75px;
+}
+.section1  span
+{
+    
+        font-family: "Sacramento", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #DEC700;
+   
+      
+    
+}
+.section1 pre
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.section1 p , .card-text
+{
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.section1 h3
+{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.13px;
+} 
+#h1
+{
+  width: 233px;
+  height: 150px;
+}
+.social
+{position: inherit;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 210px;
+    border-radius: 50% 0 0 50% ;
+    background-color: #DEC700;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#women {background-color: black;}
+.collectionBtn {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #666666;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.woman:hover {
+    scale: 1.1;
+    transition: all 0.5s; }
+ .collectionBtn:hover {
+        background-color: black ;
+        color: aliceblue;
+        transition:  all 0s;
+        cursor: pointer;
+}
+
+.card-img-top
+{
+    width: 100%; 
+    height: 214px;
+}
+.card
+{
+    background-color:#18181A;
+    color: white;
+}
+.lable1
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+.btn-warning
+{
+    background-color: #DEC700;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+margin-left: 27px;
+   border-radius: 0%;
+   
+ 
+}
+.cardbuttons{
+
+    height:18.75 px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    border-radius: 0%;
+ 
+
+}
+#btn:hover {
+    background-color: aliceblue;
+    color: black;
+    transition:  all 0s;
+    cursor: pointer;
+}
+.card1
+{ background: linear-gradient(0deg, rgba(23, 23, 25, 0.8), rgba(23, 23, 25, 0.8)),
+    radial-gradient(130.88% 204.15% at 43.33% 130.88%, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0) 100%) ;
+    ;
+   margin-top: -130px;
+   height: 204px;
+}
+
